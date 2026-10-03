@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Fitness</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111;
+      color: white;
+    }
+
+    header {
+      background: #1b1b1b;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #00ff88;
+    }
+
+    header h1 {
+      color: #00ff88;
+      font-size: 35px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00ff88;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #111, #003d29);
+    }
+
+    .hero h2 {
+      font-size: 45px;
+      color: #00ff88;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin: 20px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #00ff88;
+      color: #111;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #00ff88;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #222;
+      width: 280px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #00ff8844;
+    }
+
+    .card h3 {
+      color: #00ff88;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #1b1b1b;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>💪 Rohit Fitness</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#workout">Workout</a>
+      <a href="#tips">Fitness Tips</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Welcome to Rohit Fitness</h2>
+    <p>Build Strength • Stay Healthy • Be Strong</p>
+    <a href="#workout" class="btn">Start Workout</a>
+  </section>
+
+  <section id="workout">
+    <h2>🏋️ Workout Programs</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>💪 Strength</h3>
+        <p>Strength-building exercises और basic fitness पर ध्यान दें।</p>
+      </div>
+
+      <div class="card">
+        <h3>🏃 Cardio</h3>
+        <p>Walking, running और अन्य age-appropriate cardio activities।</p>
+      </div>
+
+      <div class="card">
+        <h3>🧘 Flexibility</h3>
+        <p>हल्की stretching और mobility exercises करें।</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2>🔥 Fitness Tips</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>💧 Hydration</h3>
+        <p>पूरे दिन पर्याप्त पानी पीने की आदत रखें।</p>
+      </div>
+
+      <div class="card">
+        <h3>🥗 Healthy Food</h3>
+        <p>Balanced और पौष्टिक भोजन लें।</p>
+      </div>
+
+      <div class="card">
+        <h3>😴 Sleep</h3>
+        <p>अच्छी नींद recovery और overall health के लिए जरूरी है।</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>📞
